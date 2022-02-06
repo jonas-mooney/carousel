@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px;
+}
+
+nav > span {
+  display: flex;
+}
+
+#logo {
+  height: 6em;
+  width: auto;
+}
+
+#active {
+  height: 40px;
+}
+
+body {
+  background-color: #E2D4B7;
+}
